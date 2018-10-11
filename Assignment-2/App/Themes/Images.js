@@ -2,6 +2,7 @@
 const images = {
   logo: require('../Images/tinder-logo.png'),
   chat: require('../Images/chatting.png'),
+  settings: require('../Images/settings.png'),
   harold: require('../Images/Profiles/harold.jpg'),
   like: require('../Images/like.png'),
   nope: require('../Images/nope.png'),

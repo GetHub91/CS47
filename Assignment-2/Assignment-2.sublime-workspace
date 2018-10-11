@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"fl",
+				"flexDirection"
+			],
+			[
+				"haro",
+				"haroldProfile"
+			],
+			[
+				"Pro",
+				"ProfileCard"
+			],
+			[
 				"sente",
 				"sentence"
 			],
@@ -502,31 +514,11 @@
 			[
 				"rig",
 				"rightPane"
-			],
-			[
-				"respo",
-				"response"
-			],
-			[
-				"q",
-				"querySelector"
-			],
-			[
-				"pre",
-				"preventDefault"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "App.js",
-			"settings":
-			{
-				"buffer_size": 737,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -566,8 +558,34 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/App",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/App/Components"
+	],
 	"file_history":
 	[
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/App/Components/TopNavigationBar.js",
+		"/Users/isalinas/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/isalinas/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/isalinas/Documents/Stanford/cs47/Exercises/Lecture2B-master/App/Components/StarWarsCard.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/App/Components/BottomButtonBar.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/App/Components/ProfileCard.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/App/Themes/Metrics.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/App/Themes/Images.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/App.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Exercises/Lecture2B-master/App/Themes/Colors.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Exercises/Lecture2B-master/App.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/App/Themes/index.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Exercises/Lecture2B-master/App/Themes/Metrics.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/node_modules/metro/src/lib/polyfills/require.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/App/Themes/Profiles.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Exercises/Lecture2B-master/App/Themes/Images.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/.gitignore",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/Assignment-2/App.js",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/app.json",
+		"/Users/isalinas/Documents/Stanford/cs47/Assignment-2/Assignment-2/.gitignore",
 		"/Users/isalinas/Documents/Stanford/cs221/foundations/grader.py",
 		"/Users/isalinas/Documents/Stanford/cs221/foundations/submission.py",
 		"/Users/isalinas/Documents/Stanford/cs221/foundations/graderUtil.py",
@@ -675,31 +693,11 @@
 		"/Users/isalinas/Documents/Stanford/cs50/build/bccModal.html",
 		"/Users/isalinas/Documents/Stanford/cs50/build/background.html",
 		"/Users/isalinas/Documents/Stanford/cs50/build/bccModal_longer.html",
-		"/Users/isalinas/Documents/Stanford/cs50/build/js/inject.bundle.js",
-		"/Users/isalinas/Documents/Stanford/cs50/build/js/background.bundle.js",
-		"/Users/isalinas/Documents/Stanford/cs124/pa4-ir-2018/python/IRSystem.py",
-		"/Users/isalinas/Documents/Stanford/cs124/spamlord-v14/python/SpamLord.py",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/public/js/newsfeed-view.js",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/public/js/grid.js",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/public/js/templates.js",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/public/js/search-view.js",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/public/js/post-model.js",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/server.js",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/lib/post.js",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/public/js/search-model.js",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/lib/flickr.js",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/public/js/main-view.js",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/public/js/main.js",
-		"/Users/isalinas/Documents/Stanford/cs42/yelp-winter-2018-GetHub91/js/entry-model.js",
-		"/Users/isalinas/Documents/Stanford/cs42/yelp-winter-2018-GetHub91/js/editing-entry-view.js",
-		"/Users/isalinas/Documents/Stanford/cs42/yelp-winter-2018-GetHub91/js/entry-view.js",
-		"/Users/isalinas/Documents/Stanford/cs42/yelp-winter-2018-GetHub91/js/main-view.js",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/lib/soundcloud.js",
-		"/Users/isalinas/Documents/Stanford/cs42/newsfeed-winter-2018-GetHub91/lib/youtube.js"
+		"/Users/isalinas/Documents/Stanford/cs50/build/js/inject.bundle.js"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -713,9 +711,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"hidden",
-			"3b",
-			"addManualPart"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -733,43 +728,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "App.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 737,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -806,7 +772,7 @@
 	"project": "Assignment-2.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -867,7 +833,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 263.0,
 	"status_bar_visible": true,
 	"template_settings":
