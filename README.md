@@ -9,3 +9,4 @@ I'll include the provided specifications with each assignment so that unenrolled
 ## Assignments
 - [Assignment 1](./Assignment-1): Warmup
 - [Assignment 2](./Assignment-2): Tinder UI
+- [Assignment 3](./Assignment-2): New York Times UI
