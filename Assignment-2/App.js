@@ -9,9 +9,9 @@ export default class App extends React.Component {
   constructor() {
     super();
 
-    var harpreviousProfile = Profiles.harold;
+    var haroldProfile = Profiles.harold;
     this.state = {
-      profile: harpreviousProfile,
+      profile: haroldProfile,
       previousProfile: {},
       loading: false,
     };
