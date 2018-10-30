@@ -1,35 +1,85 @@
 import React from 'react';
 import {
-  StyleSheet,
-  View,
+  Alert,
+  Dimensions,
   Image,
-  Text,
   Platform,
+  StyleSheet,
+  Text,
   TouchableOpacity,
-  Dimensions
+  View,
 } from 'react-native';
 import { Images } from '../Themes';
+import { FontAwesome, MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default class ActionBar extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+
+  rewind = () => {
+    this.props.previousProfile()
+  }
+
+  nope = () => {
+    this.props.newProfile()
+  }
+
+  boost = () => {
+    Alert.alert("You've used a boost!\nLove is coming your way!!\n:)")
+  }
+
+  like = () => {
+    this.props.newProfile()
+  }
+
+  superLike = () => {
+    this.props.newProfile()
+  }
 
   render() {
     return (
       <View style={styles.actionBar}>
-          <View style={styles.smallImageWrapper}>
-            <Image source={Images.rewind} resizeMode={'contain'} style={styles.smallImage}/>
-          </View>
-          <View style={styles.bigImageWrapper}>
-            <Image source={Images.nope} resizeMode={'contain'} style={styles.bigImage}/>
-          </View>
-          <View style={styles.smallImageWrapper}>
-            <Image source={Images.boost} resizeMode={'contain'} style={styles.smallImage}/>
-          </View>
-          <View style={styles.bigImageWrapper}>
-            <Image source={Images.like} resizeMode={'contain'} style={styles.bigImage}/>
-          </View>
-          <View style={styles.smallImageWrapper}>
-            <Image source={Images.superLike} resizeMode={'contain'} style={styles.smallImage}/>
-          </View>
+          <TouchableOpacity style={styles.smallImageWrapper} onPress={this.rewind}>
+            <FontAwesome
+              name="undo"
+              style={{fontSize: 18}}
+              color="gold"
+            />
+            <MaterialCommunityIcons
+              name="face-profile"
+              size={18}
+              color="gold"
+            />
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.bigImageWrapper} onPress={this.nope}>
+            <FontAwesome
+              name="close"
+              style={{fontSize: 40}}
+              color="red"
+            />
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.smallImageWrapper} onPress={this.boost}>
+            <MaterialCommunityIcons
+              name="weather-lightning"
+              size={22}
+              color="purple"
+            />
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.bigImageWrapper} onPress={this.like}>
+            <FontAwesome
+              name="heart"
+              style={{fontSize: 30}}
+              color="mediumspringgreen"
+            />
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.smallImageWrapper} onPress={this.superLike}>
+            <FontAwesome
+              name="star"
+              style={{fontSize: 22}}
+              color="deepskyblue"
+            />
+          </TouchableOpacity>
       </View>
     );
   }
@@ -41,7 +91,7 @@ const styles = StyleSheet.create({
     height: 80,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
   },
   smallImageWrapper: {
     alignItems: 'center',
