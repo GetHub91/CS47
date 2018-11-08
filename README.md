@@ -11,3 +11,4 @@ I'll include the provided specifications with each assignment so that unenrolled
 - [Assignment 2](./Assignment-2): Tinder UI
 - [Assignment 3](./Assignment-3): New York Times UI
 - [Assignment 4](./Assignment-4): Tinder 2.0
+- [Assignment 5](./Assignment-5): New York Times 2.0

@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types' //consider using this!
-import { StyleSheet, SafeAreaView, View, FlatList, Text, Linking, ActivityIndicator, TouchableOpacity } from 'react-native'
-import { WebBrowser } from 'expo'
-import { material } from 'react-native-typography' //consider using this!
+import { StyleSheet, View, FlatList, Text, ActivityIndicator, TouchableOpacity } from 'react-native'
+import { material } from 'react-native-typography'
 import { Metrics, Colors } from '../Themes'
+
 
 export default class News extends Component {
   static defaultProps = { articles: [] }
@@ -14,7 +13,9 @@ export default class News extends Component {
 
   articleRenderer(item) {
     return (
-      <TouchableOpacity onPress={() => this.pressArticle(item.url)}>
+      <TouchableOpacity 
+        onPress={() => this.props.navigation.navigate('Article', item.url)}
+      >
         <Text style={material.title}>{item.title}</Text>
         <Text style={material.body1}>{item.snippet}</Text>
         <Text style={material.body2}>{item.byline}</Text>
@@ -29,7 +30,6 @@ export default class News extends Component {
   }
 
   _keyExtractor = (item, index) => index.toString();
-
 
   render () {
     // Conditional rendering

@@ -12,6 +12,7 @@ export default class OnboardScreen extends Component {
     super(props)
   }
 
+
   render () {
     return (
       <View style={styles.container}>
