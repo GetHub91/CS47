@@ -1,11 +1,3 @@
-/*
-*
-* Assignment 3
-*
-* CS47
-* Oct, 2018
-*/
-
 import React, { Component } from 'react'
 import PropTypes from 'prop-types' //consider using this!
 import { StyleSheet, SafeAreaView, View, FlatList, Text, Linking, ActivityIndicator, TouchableOpacity } from 'react-native'
@@ -40,7 +32,6 @@ export default class News extends Component {
 
 
   render () {
-
     // Conditional rendering
     if(this.props.loading) {
       return (
@@ -54,7 +45,7 @@ export default class News extends Component {
       <View style={styles.container}>
         <FlatList
           data={this.props.articles}
-          // onEndReached={() => this.loadMore(3, this.state.jedisSectioned[0].data.length+1)}
+          // onEndReached={() => this.loadMore(3}
           renderItem={({item}) => this.articleRenderer(item)}
           ItemSeparatorComponent = {() => (<View style={{height: 10}}/>)}
           keyExtractor={this._keyExtractor}

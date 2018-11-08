@@ -1,11 +1,3 @@
-/*
-*
-* Assignment 3
-*
-* CS47
-* Oct, 2018
-*/
-
 import React, { Component } from 'react'
 import PropTypes from 'prop-types' //consider using this!
 import { StyleSheet, View, Button, TextInput, TouchableOpacity } from 'react-native'

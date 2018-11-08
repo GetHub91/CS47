@@ -1,11 +1,3 @@
-/*
-*
-* Assignment 3
-*
-* CS47SI
-* Jan, 2017
-*/
-
 import {Dimensions, Platform} from 'react-native'
 
 const { width, height } = Dimensions.get('window')

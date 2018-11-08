@@ -1,12 +1,3 @@
-/*
-*
-* Assignment 3
-* Starter Files
-*
-* CS47SI
-* Jan, 2017
-*/
-
 const colors = {
   background: '#1F0808',
   clear: 'rgba(0,0,0,0)',

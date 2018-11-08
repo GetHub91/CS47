@@ -1,12 +1,3 @@
-/*
-*
-* Assignment 3
-* Starter Files
-*
-* CS47SI
-* Jan, 2017
-*/
-
 import AppConfig from './AppConfig'
 const queryString = require('query-string'); //Importing JavaScript library from npm
 
